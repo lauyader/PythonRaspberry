@@ -1,3 +1,4 @@
+import RPi.GPIO as GPIO    #Importamos la librería GPIO
 import time                #Importamos time (time.sleep)
 GPIO.setmode(GPIO.BCM)     #Ponemos la placa en modo BCM
 GPIO_TRIGGER = 25          #Usamos el pin GPIO 25 como TRIGGER
